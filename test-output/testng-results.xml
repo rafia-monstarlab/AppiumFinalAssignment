@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-16T04:14:36 BDT" name="Suite" finished-at="2022-03-16T04:15:05 BDT" duration-ms="29617">
+    <groups>
+    </groups>
+    <test started-at="2022-03-16T04:14:36 BDT" name="Test" finished-at="2022-03-16T04:15:05 BDT" duration-ms="29617">
+      <class name="tests.searchname">
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:tests.searchname@d9345cd]" started-at="2022-03-16T04:14:36 BDT" name="openApplication" finished-at="2022-03-16T04:14:55 BDT" duration-ms="19142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="SearchTamim()[pri:1, instance:tests.searchname@d9345cd]" started-at="2022-03-16T04:14:55 BDT" name="SearchTamim" finished-at="2022-03-16T04:14:57 BDT" duration-ms="1706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchTamim -->
+        <test-method signature="searchJenny()[pri:2, instance:tests.searchname@d9345cd]" started-at="2022-03-16T04:14:57 BDT" name="searchJenny" finished-at="2022-03-16T04:15:01 BDT" duration-ms="4287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchJenny -->
+        <test-method signature="clickonname()[pri:3, instance:tests.searchname@d9345cd]" started-at="2022-03-16T04:15:01 BDT" name="clickonname" finished-at="2022-03-16T04:15:04 BDT" depends-on-methods="tests.searchname.searchJenny" duration-ms="2865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonname -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.searchname@d9345cd]" started-at="2022-03-16T04:15:04 BDT" name="teardown" finished-at="2022-03-16T04:15:05 BDT" duration-ms="1584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.searchname -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
